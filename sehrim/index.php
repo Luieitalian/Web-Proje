@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,7 +12,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/styles/index.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Şehrim</title>
   </head>
   <body>
     <div class="my-grid">
@@ -20,14 +27,23 @@
       >
         header
         <div class="links">
-          <a href="../ozgecmis/">Öz Geçmiş</a>
-          <a href="../">Hakkımda</a>
+          <a href="../hakkimda/index.php">Hakkımda</a>
+          <a href="mirasimiz/index.php">Mirasımız</a>
         </div>
       </header>
 
-      <section class="container-fluid">main content</section>
+      <main class="container-fluid">
+        <?php
+          echo $GLOBALS['myvar'];
+        ?>
+        main content
+      </main>
 
-      <footer class="container-fluid">footer</footer>
+      <footer
+        class="container-fluid d-flex justify-content-center align-items-center"
+      >
+        Coded with 🤍 by Berke Pite
+      </footer>
     </div>
   </body>
 </html>

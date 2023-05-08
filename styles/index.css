@@ -1,6 +1,92 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ced3c2;
+  font-size: 0.9rem;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
 .my-grid {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-rows: 3fr 30fr 2fr;
   grid-template-columns: 1fr;
+}
+
+header {
+  background-color: #4a6b71;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: #ced3c2;
+  background-color: #2f4858;
+  transition: all 0.3s;
+}
+a:hover {
+  color: #2f4858;
+  background-color: #ced3c2;
+}
+
+footer {
+  color: #ced3c2;
+  background-color: #4a6b71;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  margin-bottom: 10rem;
+  background-color: #2f4858;
+  color: #ced3c2;
+}
+.form-wrapper label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+.form-wrapper label input {
+  font-size: 1.3rem;
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-wrapper input {
+  border: none;
+  font-weight: inherit;
+  border: 2px solid #ced3c2;
+  border-radius: 5px;
+  padding: 0.4rem;
+  background-color: #ced3c2;
+  color: #2f4858;
+  transition: all ease 0.3s;
+}
+.btn-wrapper input:hover {
+  color: #ced3c2;
+  background-color: #2f4858;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.1rem;
+  }
 }

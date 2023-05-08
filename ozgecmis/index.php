@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,23 +12,34 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/styles/index.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Öz Geçmiş</title>
   </head>
   <body>
+    <?php echo $_SESSION['name'] ?>
     <div class="my-grid">
       <header
         class="container-fluid d-flex align-items-center justify-content-between"
       >
         header
         <div class="links">
-          <a href="ozgecmis/">Öz Geçmiş</a>
-          <a href="sehrim/">Şehrim</a>
+          <a href="../hakkimda/index.php">Hakkımda</a>
+          <a href="../sehrim/index.php">Şehrim</a>
         </div>
       </header>
 
-      <section class="container-fluid">main content</section>
+      <main class="container-fluid">main content</main>
 
-      <footer class="container-fluid">footer</footer>
+      <footer
+        class="container-fluid d-flex justify-content-center align-items-center"
+      >
+        Coded with 🤍 by Berke Pite
+      </footer>
     </div>
   </body>
 </html>
