@@ -1,0 +1,28 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #2f4858;
+  flex-grow: 1;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.hakkimda-text {
+  margin: 0;
+  padding: 0rem 1rem;
+  color: #ced3c2;
+}
+.my-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #ced3c2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) {
+  .content-container {
+    margin: 1rem 0rem;
+  }
+}

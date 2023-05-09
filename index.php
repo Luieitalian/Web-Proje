@@ -31,17 +31,17 @@
               type="text"
               name="name"
               id="name"
-              autocomplete="off"
+              autocomplete="on"
             />
           </label>
           <label>
             <span>Şifre</span>
             <input
               required
-              type="password"
+              type="text"
               name="password"
               id="password"
-              autocomplete="off"
+              autocomplete="on"
             />
           </label>
           <div class="btn-wrapper">

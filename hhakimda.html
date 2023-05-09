@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,31 +10,44 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Şehrim</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/hakkimda.css" />
+    <title>Hakkımda</title>
   </head>
   <body>
     <div class="my-grid">
       <header
         class="container-fluid d-flex align-items-center justify-content-between"
       >
-        <h1>ŞEHRİM</h1>
+        <h1>HAKKIMDA</h1>
         <div class="links">
-          <a href="../hakkimda/index.php">Hakkımda</a>
-          <a href="mirasimiz/index.php">Mirasımız</a>
+          <a href="../ozgecmis/index.php">Öz Geçmiş</a>
+          <a href="../sehrim/index.php">Şehrim</a>
         </div>
       </header>
 
-      <main class="container-fluid">
+      <main class="container-fluid d-flex flex-column gap-1">
         <span>
-          <p class="welcome">Hoşgeldin <?php echo $_SESSION['name'] ?></p>
+          <p class="welcome">Hoşgeldin g221210013</p>
         </span>
+        <section class="content-container">
+          <img class="my-photo" src="me.jpg" alt="my photo"/>
+          <p class="hakkimda-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quam
+            minus sapiente optio officia minima eum molestiae sit id ea libero
+            error modi quos consectetur, voluptatibus dolor! Quasi rerum
+            laboriosam repellendus id libero consectetur dicta debitis beatae
+            veritatis incidunt earum, culpa dignissimos, minima perspiciatis
+            magni porro illo hic? Aliquam odio qui sunt eaque accusamus
+            perspiciatis, porro quam vero adipisci! Corporis?
+          </p>
+        </section>
       </main>
 
       <footer

@@ -22,23 +22,27 @@
   </head>
   <body>
       <div class="my-grid">
-        <header
+      <header
         class="container-fluid d-flex align-items-center justify-content-between"
         >
-        header
+        <h1>HAKKIMDA</h1>
         <div class="links">
           <a href="../ozgecmis/index.php">Öz Geçmiş</a>
           <a href="../sehrim/index.php">Şehrim</a>
         </div>
       </header>
       
-      <main class="container-fluid">main content</main>
+      <main class="container-fluid">
+        <span>
+          <p class="welcome">Hoşgeldin <?php echo $_SESSION['name'] ?></p>
+        </span>
+      </main>
       
       <footer
       class="container-fluid d-flex justify-content-center align-items-center"
       >
-      Coded with 🤍 by Berke Pite
-    </footer>
+        Coded with 🤍 by Berke Pite
+      </footer>
     </div>
   </body>
 </html>
