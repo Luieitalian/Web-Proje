@@ -5,41 +5,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="../styles/hakkimda.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
     <title>Hakkımda</title>
   </head>
   <body>
-      <div class="my-grid">
+    <div class="my-grid">
       <header
-        class="container-fluid d-flex align-items-center justify-content-between"
-        >
+        class="header-container"
+      >
         <h1>HAKKIMDA</h1>
         <div class="links">
           <a href="../ozgecmis/index.php">Öz Geçmiş</a>
           <a href="../sehrim/index.php">Şehrim</a>
         </div>
       </header>
-      
-      <main class="container-fluid">
+
+      <main class="main-content">
         <span>
           <p class="welcome">Hoşgeldin <?php echo $_SESSION['name'] ?></p>
         </span>
+        <section class="content-container">
+          <img class="my-photo" src="../me.jpg" alt="my photo"/>
+          <p class="hakkimda-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quam
+            minus sapiente optio officia minima eum molestiae sit id ea libero
+            error modi quos consectetur, voluptatibus dolor! Quasi rerum
+            laboriosam repellendus id libero consectetur dicta debitis beatae
+            veritatis incidunt earum, culpa dignissimos, minima perspiciatis
+            magni porro illo hic? Aliquam odio qui sunt eaque accusamus
+            perspiciatis, porro quam vero adipisci! Corporis?
+          </p>
+        </section>
       </main>
-      
+
       <footer
-      class="container-fluid d-flex justify-content-center align-items-center"
+        class="footer-container"
       >
         Coded with 🤍 by Berke Pite
       </footer>
