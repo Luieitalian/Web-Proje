@@ -23,7 +23,7 @@
         <h1>HAKKIMDA</h1>
         <div class="links">
           <a href="../ozgecmis/index.php">Öz Geçmiş</a>
-          <a href="../sehrim/index.php">Şehrim</a>
+          <a href="../sehrim/index.php">Şehrimm</a>
         </div>
       </header>
 
