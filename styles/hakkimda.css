@@ -1,29 +1,48 @@
+:root {
+  --clr-neutral: #fefedf;
+  --clr-secondary: #845ec2;
+  --clr-primary: #c493ff;
+  --clr-distant: #00c9a7;
+}
 .content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #2f4858;
+  background-color: var(--clr-primary);
   flex-grow: 1;
   border-radius: 10px;
   margin-bottom: 5px;
+  padding: 0.7rem;
+  gap: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: var(--clr-neutral);
+  font-size: 1.1rem;
+  padding: 1rem;
 }
-.hakkimda-text {
-  margin: 0;
-  padding: 0rem 1rem;
-  color: #ced3c2;
+.text {
+  margin: 1rem 0;
 }
-.my-photo {
-  width: 200px;
+.image {
   height: 200px;
+  width: 200px;
   border-radius: 50%;
-  border: 3px solid #ced3c2;
+  border: 3px solid var(--clr-distant);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 768px) {
   .content-container {
     margin: 1rem 0rem;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+  }
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+  .text {
+    padding: 0 5rem;
+    margin: 0;
   }
 }

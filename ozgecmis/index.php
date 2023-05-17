@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <title>Öz Geçmiş</title>
+    <link rel="stylesheet" href="../styles/ozgecmis.css">
   </head>
   <body>
     <div class="my-grid">
@@ -26,10 +27,55 @@
         </div>
       </header>
 
-      <main class="container-fluid">
+      <main class="main-content">
         <span>
           <p class="welcome">Hoşgeldin <?php echo $_SESSION['name'] ?></p>
         </span>
+        <section class="content-container unilever">
+          <img
+            class="image"
+            src="../assets/unilever.jpg"
+            alt="Unilever İş İlkokulu"
+          />
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            dolorum quo beatae nemo distinctio at suscipit reiciendis, nesciunt
+            dolor nam eos asperiores illum, voluptas porro nisi, earum alias!
+            Ipsam, nostrum!
+          </p>
+        </section>
+        <section class="content-container corlu">
+          <img
+            class="image"
+            src="../assets/corluortaokulu.jpg"
+            alt="Çorlu Ortaokulu"
+          />
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            obcaecati atque repudiandae deleniti itaque praesentium quidem! Nemo
+            autem eligendi numquam cum totam aspernatur vero. Ratione quam magni
+            quia unde quos?
+          </p>
+        </section>
+        <section class="content-container mimarsinan">
+          <img
+            class="image"
+            src="../assets/mimarsinan.jpg"
+            alt="Mimar Sinan Anadolu Lisesi"
+          />
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            obcaecati atque repudiandae deleniti itaque praesentium quidem! Nemo
+            autem eligendi numquam cum totam aspernatur vero. Ratione quam magni
+            quia unde quos?
+          </p>
+        </section>
+        <section class="content-container mimarsinan">
+          <ul>
+            <li>İngilizce seviyem iyidir.</li>
+            <li>Araştırmayı, tarih okumayı çok severim.</li>
+          </ul>
+        </section>
       </main>
 
       <footer
