@@ -36,13 +36,7 @@
         <section class="content-container">
           <img class="image my-photo" src="../assets/me.jpg" alt="My Photo" />
           <p class="text hakkimda-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quam
-            minus sapiente optio officia minima eum molestiae sit id ea libero
-            error modi quos consectetur, voluptatibus dolor! Quasi rerum
-            laboriosam repellendus id libero consectetur dicta debitis beatae
-            veritatis incidunt earum, culpa dignissimos, minima perspiciatis
-            magni porro illo hic? Aliquam odio qui sunt eaque accusamus
-            perspiciatis, porro quam vero adipisci! Corporis?
+            Ben Berke Pite! 8 Şubat 2004'te Çorlu'da dünyaya geldim. Annem ev hanımı babam ise fabrika işçisidir. Bir tane ablam vardır. Kendisi İstanbul'da bir ilkokulda psikolojik danışmanlık yapmaktadır. Hobilerim gezmek, oyun oynamak, müzik dinlemek, bisiklete binmek, dostlarımla sohbet etmektir.
           </p>
         </section>
         <section class="content-container video-game">
@@ -52,37 +46,19 @@
             alt="Video Game Image"
           />
           <p class="text videogame-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            odio odit, quis perspiciatis velit nobis inventore. Quidem earum
-            voluptatibus sequi, architecto excepturi hic doloremque accusamus
-            optio. Soluta optio qui vero?
+            Oyun oynamak hobilerimden biridir. Kafa dağıtmak için idealdir. En sevdiğim oyunlar Europa Universalis 4 ve Hades'tir.
           </p>
         </section>
         <section class="content-container research">
           <img class="image" src="../assets/research.jpg" alt="Research Image" />
           <p class="text research-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-            tenetur esse dolor! Accusantium, neque dignissimos molestiae
-            obcaecati eos officiis. Consequatur velit quod iure vel earum, sit
-            delectus ab pariatur expedita, amet molestias, similique magnam
-            debitis quam eligendi deleniti assumenda aspernatur ipsam
-            perspiciatis ut? Error ab architecto quas reiciendis doloribus
-            expedita.
+            Araştırma yapmayı çok severim. Her konuda meraklıyımdır. Youtube'dan bolca bilim videosu izlerim. Veritasium, Vsauce ve Evrim Ağacı en sevdiğim kanallardır. 
           </p>
         </section>
         <section class="content-container poker-night">
           <img class="image" src="../assets/poker_night.jpg" alt="Poker Night" />
           <p class="text poker-night-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            beatae sit, tempora velit totam explicabo maiores, quis delectus
-            quaerat aperiam ullam! Sapiente ipsum sequi ea vel quas, dolores
-            ducimus earum nemo aspernatur, voluptatum, delectus tempore
-            perspiciatis explicabo beatae nobis mollitia ullam officia cumque.
-            Dolores eum vel, quo iure quis veritatis asperiores sit soluta
-            similique commodi deleniti officia modi dicta porro illum fugit,
-            accusamus sunt illo ab consequuntur? Aspernatur deleniti reiciendis
-            eius neque assumenda? Sapiente quis natus beatae, dolores veniam ad
-            id aspernatur deleniti et eius ab quas quibusdam repellendus quasi!
+            Arkadaşlarımla vakit geçirmeyi ve kafa dağıtmayı çok severim. En güzel anılar bence arkadaşlarla olan anılardır. Dostlarımla olduğumda kendimi daha iyi ifade edebiliyorum.
           </p>
         </section>
       </main>

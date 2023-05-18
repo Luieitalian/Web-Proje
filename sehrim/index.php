@@ -105,21 +105,21 @@
                 <img
                   src="../assets/corlu3.jpg"
                   class="d-block w-100"
-                  alt="..."
+                  alt="çorlu"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/corlu2.jpg"
                   class="d-block w-100"
-                  alt="..."
+                  alt="çorlu"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/fatihcamii.jpg"
                   class="d-block w-100"
-                  alt="..."
+                  alt="çorlu"
                 />
               </div>
             </div>

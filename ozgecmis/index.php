@@ -39,10 +39,7 @@
             alt="Unilever İş İlkokulu"
           />
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-            dolorum quo beatae nemo distinctio at suscipit reiciendis, nesciunt
-            dolor nam eos asperiores illum, voluptas porro nisi, earum alias!
-            Ipsam, nostrum!
+            İlkokulu Ünilever İş İlkokulu'nda okudum. Burada yazı yazmayı, saymayı ve arkadaş edinmeyi öğrendim.
           </p>
         </section>
         <section class="content-container corlu">
@@ -52,10 +49,7 @@
             alt="Çorlu Ortaokulu"
           />
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            obcaecati atque repudiandae deleniti itaque praesentium quidem! Nemo
-            autem eligendi numquam cum totam aspernatur vero. Ratione quam magni
-            quia unde quos?
+            Ortaokulu Çorlu Ortaokulu'nda okudum. Derslerim gayet iyiydi. Matematiğe olan sevgim ortaokulda başladı. İngilizceye olan merakım da ortaokul son sınıfta başladı.
           </p>
         </section>
         <section class="content-container mimarsinan">
@@ -65,17 +59,8 @@
             alt="Mimar Sinan Anadolu Lisesi"
           />
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            obcaecati atque repudiandae deleniti itaque praesentium quidem! Nemo
-            autem eligendi numquam cum totam aspernatur vero. Ratione quam magni
-            quia unde quos?
+            Liseyi Mimar Sinan Anadolu Lisesi'nde okudum. Burada üniversiteye hazırlandım. Matematiğimi ve inglizcemi olabildiğince geliştirmeye çalıştım. Şimdi ise Sakarya Üniversitesi'nde Bilgisayar Mühendisliği okuyorum.
           </p>
-        </section>
-        <section class="content-container mimarsinan">
-          <ul>
-            <li>İngilizce seviyem iyidir.</li>
-            <li>Araştırmayı, tarih okumayı çok severim.</li>
-          </ul>
         </section>
       </main>
 

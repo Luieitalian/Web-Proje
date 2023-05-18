@@ -40,6 +40,9 @@
             <li class="movie-director"></li>
             <li class="movie-imdb"></li>
           </ul>
+          <p>
+            Film izlemeyi çok severim bu sebeple interstellar adlı filmi bir API'den çektim.
+          </p>
         </section>
       </main>
 

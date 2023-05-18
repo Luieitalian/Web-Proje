@@ -54,7 +54,7 @@
               </select>
               <div class="button">
                 <button type="reset" id="temizle-btn">Temizle</button>
-                <button id="gonder-btn" type="submit">Gönder</button>
+                <button disabled id="gonder-btn" type="submit">Gönder</button>
               </div>
             </div>
           </form>
