@@ -7,7 +7,7 @@ const textarea = document.querySelector('#textarea');
 const selection = document.querySelector('#selection');
 
 temizleBtn.addEventListener('click', () => {
-  gonderBtn.disabled = false;
+  gonderBtn.disabled = true;
   gonderBtn.style.backgroundColor = 'white';
 });
 
