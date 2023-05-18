@@ -25,7 +25,7 @@ header {
 }
 h1 {
   color: var(--clr-neutral);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   margin: 0;
 }
@@ -36,6 +36,7 @@ a {
   font-weight: 700;
   border-radius: 5px;
   padding: 0.5rem;
+  font-size: 0.8rem;
   color: var(--clr-neutral);
   background-color: var(--clr-primary);
   transition: all 0.3s;
@@ -125,8 +126,15 @@ footer {
 @media (min-width: 768px) {
   .header-container {
     font-size: 1.2rem;
+    padding: 0 2rem;
   }
   h1 {
     font-size: 2rem;
+  }
+  .main-content {
+    padding: 0 1rem;
+  }
+  a {
+    font-size: 1rem;
   }
 }

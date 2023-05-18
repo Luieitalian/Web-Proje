@@ -24,6 +24,8 @@
         <div class="links">
           <a href="../ozgecmis/index.php">Öz Geçmiş</a>
           <a href="../sehrim/index.php">Şehrim</a>
+          <a href="../ilgialanlari/index.php">İlgi Alanlarım</a>
+          
         </div>
       </header>
 

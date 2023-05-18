@@ -39,11 +39,6 @@
 .green {
   color: var(--clr-secondary);
 }
-.carousel-item > img {
-  object-fit: cover;
-  overflow: hidden;
-  height: 400px;
-}
 @media (min-width: 768px) {
   .content-container {
     margin: 1rem 0rem;
@@ -58,6 +53,7 @@
     width: 800px;
   }
   .text {
-    padding: 0 10rem;
+    padding: 0 5rem;
+    margin: 0;
   }
 }
